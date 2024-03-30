@@ -1,0 +1,22 @@
+semester 1: 
+    Orientation
+    Introduction to C Programming 
+    Problem Solving Part-I
+    Introduction to C++ for DSA
+
+semester 2(serious semester): 
+    Basic Data Structures
+    Problem Solving Part- II
+    Introduction to Algorithms
+    Problem Solving Part-III
+
+
+Problem Solvers Track:
+    weekly live class
+    contests upsolving class 
+    weekly online judge(codeforce, codechef)
+    conduct live class with acm icpc world finalist contestant
+
+reward:
+    job 
+    advance crash course

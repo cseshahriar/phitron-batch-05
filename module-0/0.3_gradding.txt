@@ -1,0 +1,3 @@
+conditions:
+ >= 80% for problem solving
+ < 55% is fail 
