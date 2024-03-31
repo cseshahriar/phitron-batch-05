@@ -1,0 +1,3 @@
+c program structure 
+  Head -> header files, lib include
+  Body  -> code
