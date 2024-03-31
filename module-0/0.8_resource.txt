@@ -7,3 +7,10 @@ Codeblocks Link- https://sourceforge.net/projects/codeblocks/files/Binaries/17.1
 Git Bash Link - https://git-scm.com/downloads
 
 VS Code Link - https://code.visualstudio.com/download
+0-10 Hard Reload and Cookies Clear
+0-11 Install VS Code, Git Bash and Zoom
+0-12 Setup VS Code and Compiler ***
+0-13 Setup VS Code and Run C Program in Mac [Optional]
+0-14 Setup Shortcut Key and Input Output
+< input.txt < output.txt
+0-15 CodeBlocks Setup
