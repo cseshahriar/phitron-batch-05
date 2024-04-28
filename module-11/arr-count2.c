@@ -14,12 +14,12 @@ int main() {
     for(int i = 0; i < 26; i++) {
         // character
         if(cnt[i] != 0) {
-            printf("%c - %d\n", i + 'a', cnt[i]);
+            printf("%c : %d\n", i + 'a', cnt[i]);
         }
 
         // decimal
-        int value = s[i] - 97;
-        printf("%d - %d\n", value, cnt[value]);
+        // int value = s[i] - 97;
+        // printf("%d - %d\n", value, cnt[value]);
     }
     return 0;
 }
