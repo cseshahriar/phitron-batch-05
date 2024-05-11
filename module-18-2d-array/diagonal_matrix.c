@@ -9,6 +9,8 @@ int main() {
          scanf("%d", &a[i][j]);   
         }
     }
+    
+    // primary
     int flag = 1;
     if(row != col) {
         flag = 0;
