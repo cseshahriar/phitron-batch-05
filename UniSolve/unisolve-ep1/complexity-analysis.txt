@@ -1,0 +1,28 @@
+Algorithm -> time and space complexity
+
+1. time efficiency 
+2. space efficiency
+
+
+multiplication Algorithm
+------------------------
+1. input 2 number a and b
+2. multiply a and b
+3. print result
+
+Analysis:
+3 operation 2 input, a multiply and a result print so 
+constant operation so complexity is O(1) or constant complexity
+
+N numbers summation algorithm analysis:
+----------------------------------------
+1. input n numbers 
+2. sum n numbers
+3. print sum
+
+complexity O(N) or variable complexity
+
+complexity notation:
+1. Big O - Upper bound / at most i.e  O(1), O(n), O(n^2), O(n^3), O(sqrt(n)), O(log n) ...
+2. Omega Ω - lower bound / at least
+3. Theta θ - tight bound / exact
