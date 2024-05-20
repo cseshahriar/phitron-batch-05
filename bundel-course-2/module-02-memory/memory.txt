@@ -1,0 +1,12 @@
+# Stack -> static memory
+    * limited memory
+    * compile time memory
+    * automatic clear memory
+
+# Heap -> Dynamic memory
+    * More memory
+    * runtime memory
+    * User defined memory
+    * not auto clear memory
+    * when need dynamic array
+    * When want not clear func
