@@ -3,11 +3,16 @@
 
 using namespace std;
 
+// stack memory 
+// heap memory
+
 int * fun() { // return a pointer
+    // int **fun
     int *a = new int; // dynamic
     *a =  100; // de reference
     return a;
-    
+    // int **p = &a; // a is also pointer so double pointer
+   //  return p;
 }
 
 int main() {
@@ -22,6 +27,7 @@ int main() {
     *f = 1.531;
     cout << *f << endl;
 
+    // fun
     int *p = fun();
     cout << p << endl; 
 

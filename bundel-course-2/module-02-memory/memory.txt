@@ -9,4 +9,4 @@
     * User defined memory
     * not auto clear memory
     * when need dynamic array
-    * When want not clear func
+    * When want not auto clear func
