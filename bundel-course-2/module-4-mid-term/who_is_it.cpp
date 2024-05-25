@@ -3,53 +3,38 @@
 using namespace std;
 
 class Student {
-public:
-    int id;
-    char name[101];
-    char section;
-    double total_marks;
+    public:
+        int std_id;
+        char name[101];
+        char section;
+        double total_marks;
 
-    Student(int id, char name[101], char section, double total_marks) {
-        this->id = id;
+    Student(int std_id, const char* name, char section, double total_marks) {
+        this->std_id = std_id;
         strcpy(this->name, name);
         this->section = section;
         this->total_marks = total_marks;
     }
-    // cout << id << " " << name << " " << section << " " << total_marks << endl;
-    
 };
 
 int main() {
     int t;
     cin >> t;
-
     while (t--) {
-        Student students[3] = {
-            Student(0, "", 'A', 0), 
-            Student(0, "", 'A', 0),
-            Student(0, "", 'A', 0)
-        };
-
-        for (int j = 0; j < 3; j++) {
-            int id;
-            string name;
+        Student best_student = Student(0, "", 'A', -1); // init
+        for (int i = 0; i < 3; i++) {
+            int std_id;
+            char name[101];
             char section;
             double total_marks;
-            cin >> id >> name >> section >> total_marks;
-            students[j] = Student(id, name, section, total_marks);
-        }
+            cin >> std_id >> name >> section >> total_marks;
+            Student current_student = Student(std_id, name, section, total_marks);
 
-        // Find the student with the highest total marks, and in case of tie, the student with the smaller ID
-        Student* best_student = &students[0];
-        for (int j = 1; j < 3; j++) {
-            if (students[j].total_marks > best_student->total_marks ||
-                (students[j].total_marks == best_student->total_marks && students[j].id < best_student->id)) {
-                best_student = &students[j];
+            if (current_student.total_marks > best_student.total_marks) {
+                best_student = current_student;
             }
         }
-
-        best_student->printDetails();
+        cout << best_student.std_id << " " << best_student.name << " " << best_student.section << " " << best_student.total_marks << endl;
     }
-
     return 0;
 }
