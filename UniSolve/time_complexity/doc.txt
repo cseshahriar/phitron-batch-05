@@ -1,0 +1,33 @@
+Rules of time complexity
+    1. Always consider worst case
+    2. ignore the constants
+
+
+O(1)
+----
+-> input 2 numbers a  and b -> 1
+-> print max(a, b) -> 1
+-> print min(a, b) -> 1
+-> print sum(a, b) -> 1 
+all are constants operation so O(1)
+
+O(N)
+----
+n = 10;
+for(int i = 1; i <= n; i++) {
+    print(i);
+}
+depends on n
+
+
+O(n+m)
+------
+n = 10;
+for(int i = 1; i <= n; i++) {
+    print(i);
+}
+int m = 100
+for(int i = 1; i <= m; i++) {
+    print(i);
+}
+so O(n+m)
