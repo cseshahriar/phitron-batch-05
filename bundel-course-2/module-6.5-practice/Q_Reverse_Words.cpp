@@ -1,20 +1,22 @@
-// #include <bits/stdc++.h>
-#include <iostream>
-#include <sstream>
-#include <algorithm> // for reverse
-#include <string> // for string
+#include <bits/stdc++.h>
 
 using namespace std;
 
 int main() {
     string s;
     getline(cin, s);
+    getchar();
     stringstream ss(s);
     string word;
     int word_count = 0;
+    int flag = 0;
     while(ss >> word) {
         reverse(word.begin(), word.end());
-        cout << word << " ";
+        if(flag) {
+            cout << " ";
+        }
+        flag = 1;
+        cout << word;
     }
     return 0;
 }
