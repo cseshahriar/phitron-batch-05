@@ -1,0 +1,49 @@
+Time complexity: how much time take the program
+Big O Notation
+
+O(1)
+-------------------------
+int a = 10; // 1 operation
+int b = 20; // 1 
+int sum = a + b; // 1 
+cout << sum; // 1
+O(1) // constant operation, max 1 operation
+
+
+O(n)
+---------------------------
+n = 100
+for(i=1; i < n; i++)
+    cout << i << endl;
+
+// max operation 100 or n
+so O(n)
+
+O(m+n)
+----------------------
+n = 100
+for(i=1; i < n; i++)
+    cout << i << endl;
+
+m = 10
+for(i=1; i < m; i++)
+    cout << i << endl;
+
+so O(m+n)
+
+
+Rules:
+1. Always calculate worst case / height time
+2. Ignore the constants: n/3 os n, Ignore 3
+
+
+1 sec = 10^8 ~ 10^7 operations
+
+10^7 = 10000000
+O(10^7) = 1 sec
+
+10^8 = 10 sec
+10^9 = 100 sec
+10^10 = 1000 sec
+10^11 = 10000 sec
+
