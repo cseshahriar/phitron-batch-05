@@ -5,18 +5,18 @@ int main() {
     long long int n, q;
     cin >> n >> q;
     long long int a[n];
-    for(int i = 0; i < n; i++) {
+    for(int i = 0; i < n; i++) { // o(n)
         cin >> a[i];
     }
 
     // prefix sum array
     long long int pre[n];
     pre[0] = a[0];
-    for(int i = 1; i < n; i++) {
+    for(int i = 1; i < n; i++) { // o(n)
         pre[i] = a[i] + pre[i-1]; // current array value + prefix prev value
     }
 
-    while(q--) {
+    while(q--) { // o(q)
         long long int l, r;
         cin >> l >> r;
         l--; // index = position - 1
@@ -27,6 +27,6 @@ int main() {
         else sum = pre[r] - pre[l-1];
         cout << sum << endl;
     }
-
+    // o(n+q) = o(n)
     return 0;
 }
