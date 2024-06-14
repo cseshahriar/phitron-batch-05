@@ -1,0 +1,129 @@
+Problem Statement
+
+You will be given an positive odd integer N, you need to print the pattern for it. See sample input and output for understanding the pattern.
+
+Input Format
+
+    Input will contain only N.
+
+Constraints
+
+    1 <= N <= 20 and N is odd.
+
+Output Format
+
+    Output the pattern.
+
+Sample Input 0
+
+5
+
+Sample Output 0
+
+\   /
+ \ / 
+  X  
+ / \ 
+/   \
+
+Sample Input 1
+
+7
+
+Sample Output 1
+
+\     /
+ \   / 
+  \ /  
+   X   
+  / \  
+ /   \ 
+/     \
+
+Sample Input 2
+
+3
+
+Sample Output 2
+
+\ /
+ X 
+/ \
+
+Sample Input 3
+
+1
+
+Sample Output 3
+
+X
+
+Submissions: 172
+
+Max Score:
+
+20
+
+Difficulty:
+
+Easy
+
+Rate This Challenge:
+More
+
+1
+
+#include <bits/stdc++.h>
+
+2
+
+​
+
+3
+
+using namespace std;
+
+4
+
+​
+
+5
+
+​
+
+6
+
+​
+
+7
+
+int main()
+
+8
+
+{
+
+9
+
+    // Write your code here
+
+10
+
+​
+
+11
+
+    return 0;
+
+12
+
+}
+
+13
+
+​
+
+Line: 1 Col: 1
+Test against custom input
+
+Interview Prep | Blog | Scoring | Environment | FAQ | About Us | Support | Careers | Terms Of Service | Privacy Policy |
