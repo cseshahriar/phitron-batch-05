@@ -1,0 +1,159 @@
+3:31 PM
+ 1  vscode
+    2  git
+    3  git --version
+    4  sudo pacman install codeblocks
+    5  sudo systemctl enable fstrim.timer
+    6  sudo systemctl enable fstrim.timer
+    7  mhwd-kernel -li
+    8  curl -O https://download.sublimetext.com/sublimehq-pub.gpg
+ && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
+    9  echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable/x86_64
+" | sudo tee -a /etc/pacman.conf
+   10  sudo pacman -Syu sublime-text
+   11  git --version
+   12  npm
+   13  pacman add node
+   14  git status
+   15  python --version
+   16  sudo snap install skype
+   17  git clone git@github.com:tiger-park-limited/fellowship-management-system.git
+
+   18  git clone git@github.com:tiger-park-limited/bksp.git
+
+   19  cd
+   20  cd projects/
+   21  ls
+   22  sudo rm -r tiger-one/
+   23  git clone git@github.com:tiger-park-limited/tiger-one.git
+
+   24  clear
+   25  ls
+   26  ls
+   27  git clone git@github.com:tiger-park-limited/tiger-one.git
+
+   28  git clone git@github.com:tiger-park-limited/bksp.git
+
+   29  git clone git@github.com:tiger-park-limited/fellowship-management-system.git
+
+   30  python --versiion
+   31  python -v
+   32  clear
+   33  python --version
+   34  pacman -Si pyenv
+   35  sudo pacman -S base-devel
+   36  clear
+   37  sudo pacman -Syu
+   38  sudo pacman -Syu
+   39  sudo pacman -Syu
+   40  sudo pacman -Syu
+   41  sudo pacman -Syu
+   42  yay -s python38
+   43  sudo pacman -S yay
+   44  yay -S python38
+   45  yay -Ss python38
+   46  nslookup aur.archlinux.org
+   47  nslookup aur.archlinux.org
+   48  dig aur.archlinux.org
+   49  sudo pacman -Syu
+   50  sudo pacman -S python
+   51  sudo pacman -S yay
+   52  yay -S python38
+   53  python3.8 --version
+   54  sudo pacman -Syu
+   55  sudo pacman -Syu
+   56  sudo pacman -S postgresql
+   57  sudo mkdir -p /var/lib/postgres/data
+   58  sudo chown postgres:postgres /var/lib/postgres/data
+   59  sudo -u postgres initdb --locale en_US.UTF-8 -E UTF8 -D '/var/lib/postgres/data/'
+   60  sudo systemctl start postgresql
+   61  sudo systemctl enable postgresql
+   62  sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
+   63  sudo systemctl status postgresql
+   64  sudo -u postgres psql
+   65  pip --version
+   66  pip3 --version
+   67  sudo pacman -S pip3
+   68  sudo pacman -S pip
+   69  sudo pacman -S python-pip
+   70  sudo pacman -S python-venv
+   71  sudo pacman -S python3-venv
+   72  cd Downloads/
+   73  ls
+   74  psql -U postgrees -h localhost -f rhd_dms_db_2024_06_10_16_13.psql -d rhd_db;
+   75  psql -U postgres -h localhost -f rhd_dms_db_2024_06_10_16_13.psql -d rhd_db;
+   76  sudo pacman -Syu
+   77  sudo pacman -S gdal
+   78  gdalinfo --version
+   79  sudo pacman -S libpodofo
+   80  yay -Ss libpodofo
+   81  sudo pacman -S libpodofo
+   82  gdalinfo --version
+   83  sudo pacman -S base-devel cmake
+   84  tar -xzf libpodofo-x.x.x.tar.gz
+   85  ls
+   86  sudo pacman -S gdal
+   87  gdalinfo --version
+   88  clear
+   89  psql
+   90  sudo -u postgres psql
+   91  sudo packman -s postgis
+   92  sudo pacman -s postgis
+   93  sudo pacman -S postgis
+   94  sudo system restart postgresql;
+   95  sudo systemctl restart postgresql;
+   96  sudo -u postgres psql
+   97  sudo pacman -S postgis
+   98  sudo pacman -S postgresql-16-postgis
+   99  sudo yum install postgis3_16
+  100  sudo pacman -S postgis
+  101  sudo pacman -S postgis34
+  102  pacman -Ql postgis
+  103  pacman -S foobar
+  104  pacman -S postgis
+  105  sudo pacman -S postgis
+  106  sudo systemctl restart postgresql;
+  107  sudo -u postgres psql
+  108  clear
+  109  sudo pacman -S python3-devel
+  110  sudo pacman -S python3-dev
+  111  sudo pacman -S python-dev
+  112  sudo pacman -S python-devel
+  113  sudo pacman -S gdal-devel
+  114  sudo pacman -S gdal
+  115  sudo pacman -S --overwrite '*' gdal
+  116  find /usr/lib -name "libgdal.so*"
+  117  clear
+  118  history
+https://download.sublimetext.com/sublimehq-pub.gpg
+4:51 PM
+আপনি লেবাস ধরে বেশিক্ষন থাকতে পারবেন না। সংকট মুহূর্ত বাস্তবতা উন্মোচিত হয়ে যাবে।
+2:51 PM
+12:58 PM
+Logo
+Basic Data Structures
+Basic Data-Structure
+
+#Module_Release #Module_4
+
+
+
+নতুন কোর্সের গরম গরম এসাইনমেন্ট চলে আসলো। প্রথম এসাইনমেন্ট সাথে বেশ কিছুদিন অফ ডে আছে। সো ভালোভাবে এক্সাম দাও। আর ভুলে কপি করতে যেওনা। কপি করলেই ব্যান।
+
+
+
+আজকে কি সাবমিট করবেঃ
+
+প্রথমে hackerrank এর প্রোফাইলে তোমার নাম এবং কোর্সের ইমেইল সেট করে নিবে। তারপর আজকের কন্টেস্ট লিংকে গিয়ে সাইন আপ করে কন্টেস্টে অংশগ্রহন করবে। আর কন্টেস্ট শেষে তোমার hackerrank একাউন্ট এর প্রোফাইল লিংক এবং ইউজার নেইম সাবমিট করে দিবে।
+
+Example:
+
+https://www.hackerrank.com/RahatKhanPathan
+
+
+@RahatKhanPathan
+
+
+
+কন্টেস্ট লিংকঃ https://www.hackerrank.com/assignment-01-a-basic-data-structure-a-batch-05
+
