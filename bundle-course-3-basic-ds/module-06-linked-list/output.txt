@@ -1,0 +1,13 @@
+Option 1: Insert at Tail
+Option 2: print linked list
+Option 3: terminate
+Option 1: Insert at Tail
+Option 2: print linked list
+Option 3: terminate
+Option 1: Insert at Tail
+Option 2: print linked list
+Option 3: terminate
+100 200 
+Option 1: Insert at Tail
+Option 2: print linked list
+Option 3: terminate
