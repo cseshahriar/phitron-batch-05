@@ -1,1 +1,14 @@
 https://docs.google.com/document/d/1KQNGjcsZdNH7fPaMUGE3z1b110BghmBW1zhMEt0krLU/edit?usp=sharing
+Module-6
+Implement the following Operations for Singly Linked List
+
+Create a Singly Linked List (Take input from user)
+Count the Size of the list
+Display List
+Insertion at Head
+Insertion at Tail
+Insertion at Specific Position
+Deletion at Head
+Deletion at Tail
+Deletion at a Specific Position
+Define Singly Linked List
