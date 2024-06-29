@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// find max min number difference
 
 class Node {
     public:
@@ -13,14 +14,14 @@ class Node {
 
 };
 
-void insert_at_tail(Node *head, Node * tail, int val) {
-    Node * newNode = new Node(val); // create new node
-    if(head == NULL) { // if head is empty
-        head = newNode; // update
+void insert_at_tail(Node *&head, Node *&tail, int val) {
+    Node *newNode = new Node(val);
+    if(head == NULL) {
+        head = newNode;
         tail = newNode;
         return;
     }
-    tail->next  = newNode;
+    tail->next = newNode;
     tail = newNode;
 }
 
@@ -43,5 +44,6 @@ int main() {
         insert_at_tail(head, tail, val);
     }
     print_linked_list(head);
+
     return 0;
 }
