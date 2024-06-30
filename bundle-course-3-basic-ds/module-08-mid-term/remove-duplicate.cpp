@@ -4,16 +4,16 @@ using namespace std;
 
 class Node {
     public:
-        long long int val;
+        int val;
         Node* next;
 
-    Node(long long int val) {
+    Node(int val) {
         this->val = val;
         this->next = NULL;
     }
 };
 
-void insert_at_tail(Node *&head, Node *&tail, long long int val) {
+void insert_at_tail(Node *&head, Node *&tail, int val) {
     Node *newNode = new Node(val);
     if(head == NULL) {
         head = newNode;
@@ -25,25 +25,22 @@ void insert_at_tail(Node *&head, Node *&tail, long long int val) {
 }
 
 void remove_duplicate(Node* head) {
-    if (head == nullptr) {
-        return;
-    }
-
-    Node* current = head;
-    while (current != nullptr && current->next != nullptr) {
-        Node* runner = current;
-        while (runner->next != nullptr) {
-            if (runner->next->val == current->val) {
-                // Duplicate found, remove runner->next
-                Node* duplicate = runner->next;
-                runner->next = runner->next->next;
-                delete duplicate;
-            } else {
-                runner = runner->next;
-            }
+  Node *first, *second, *duplicate;
+  first = head;
+  // select one by one
+  while(first != NULL && first->next != NULL) {
+    second = first;
+    while(second->next != NULL) {
+        if(first->val == second->next->val) { // first->next is second
+            duplicate = second->next;
+            second->next = second->next->next; // update next
+            delete duplicate;
+        } else {
+            second  = second->next;
         }
-        current = current->next;
     }
+    first = first->next;
+  }
 }
 
 void print_linked_list(Node *head) {
@@ -59,7 +56,7 @@ int main() {
     Node * head = NULL;
     Node * tail = NULL;
     
-    long long int val;
+    int val;
     while(true) {
         cin >> val;
         if(val == -1) break;
