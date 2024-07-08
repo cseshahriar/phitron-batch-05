@@ -26,7 +26,7 @@ int main() {
         int x;
         long long int v;
         cin >> x >> v;
-        my_list.insert(next(my_list.begin(), x), v);
+        my_list.insert(next(my_list.begin(), x+1), v);
         print_normal(my_list);
         print_reverse(my_list);
     }
