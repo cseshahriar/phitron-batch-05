@@ -41,6 +41,17 @@ bool is_palindrome(Node* head, Node* tail) {
     return true;
 }
 
+
+void print_normal(Node* head) {
+    cout << "L -> ";
+    Node* tmp = head;
+    while(tmp != NULL) {
+        cout << tmp->val << " ";
+        tmp = tmp->next;
+    }
+    cout << endl;
+}
+
 int main() {
     Node *head = NULL;
     Node *tail = NULL;
