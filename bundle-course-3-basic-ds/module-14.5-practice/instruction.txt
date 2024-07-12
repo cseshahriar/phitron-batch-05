@@ -1,0 +1,6 @@
+Introduction to Data-structure 
+#module_release #module_14.5
+আজকে গরম গরম আরো একটা প্র‍্যাক্টিস ডে চলে আসলো। রিলিজ হচ্ছে মডিউল ১৪.৫। এই সপ্তাহের প্রথম প্র‍্যাক্টিস মডিউল। 
+
+এই উইকটাতে কি কি পড়ানো হয়েছে খেয়াল আছেতো? না থাকলে আরেকবার রিভিশন দিয়ে আসো। সেগুলোর উপর আজকের প্র‍্যাক্টিস প্রবলেম সেট দেওয়া হয়েছে। সেটা অবশ্যই নিজে নিজে সলভ করার ট্রাই করবে। এতে বুঝতে পারবে তোমার প্রগ্রেস কেমন হচ্ছে।
+Practice Problem set - https://docs.google.com/document/d/1ZWF5SwZ-ZEVINXaRIU8mbo1bhFLEZTx_/edit?usp=sharing&ouid=112433310488936743525&rtpof=true&sd=true
