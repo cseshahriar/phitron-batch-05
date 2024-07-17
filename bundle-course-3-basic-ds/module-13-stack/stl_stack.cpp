@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    stack<int> st;
+    stack<int> st; // LIFO
 
     int n;
     cin >> n;
