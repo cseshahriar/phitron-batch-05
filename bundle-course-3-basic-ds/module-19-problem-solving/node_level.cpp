@@ -1,4 +1,4 @@
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
 using namespace std;
 
 template <typename T>
@@ -9,7 +9,7 @@ class TreeNode {
     bool isOriginal;
     TreeNode<T> *left;
     TreeNode<T> *right;
-    
+
     TreeNode(T val) {
         this->val = val;
         left = NULL;
