@@ -1,0 +1,7 @@
+phitron links:
+    https://phitron.gitbook.io/c
+    https://phitron.gitbook.io/django/cpp
+    https://phitron.gitbook.io/data-structure
+
+others links:
+    https://www.programiz.com/cpp-programming
