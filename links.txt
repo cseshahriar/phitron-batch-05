@@ -1,0 +1,9 @@
+phitron links:
+    https://phitron.gitbook.io/c
+    https://phitron.gitbook.io/django/cpp
+    https://phitron.gitbook.io/data-structure
+    https://github.com/phitronio/Batch-4-Introduction-to-Algorithms
+    https://phitron.gitbook.io/algorithm/
+
+others links:
+    https://www.programiz.com/cpp-programming
