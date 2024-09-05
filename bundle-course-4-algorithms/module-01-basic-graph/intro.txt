@@ -1,0 +1,29 @@
+
+edge = connecton
+
+algo is kaj ar process
+    graph
+    dynamic programming
+    bonus
+
+
+# graph
+1. graph has multiple edge
+2. graph has multiple way
+3. cycle
+
+
+type of graph
+    1 undericted graph : no direction
+    2 directed graph: has direction
+    3 unweighted: weight did not define
+    4 weighted: time cost, evey edge has weighted
+    5 cycle: has cycle
+
+graph can input 3 way:
+    1. Adjacency Matrix
+    2. Adjacency List
+    3. Edge List
+
+Adjacency Matrix:
+
