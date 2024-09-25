@@ -1,0 +1,8 @@
+BFS
+
+Traverse
+level -> shortest path
+path predifine
+task
+
+https://csacademy.com/app/graph_editor/

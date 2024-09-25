@@ -1,0 +1,7 @@
+DFS: depth first search
+
+2D grid = 2d matrix
+right -> i j + 1
+left -> i j - 1
+up -> i-1 j
+down i + 1 j
