@@ -31,3 +31,8 @@ path relaxation
 
 data format
 0 1 10 # 0 theke 1 connection and cost is 10
+
+*** make sure has not negetive cost
+*** dijkstra work for positive weight
+*** negetive cycle
+*** negetive weight ace, but negetive cycle nai
