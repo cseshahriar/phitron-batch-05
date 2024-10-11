@@ -1,0 +1,38 @@
+dijkstra
+    * naive if com 1000*
+    * optimize then 100*
+    * unwaithted - bfs
+    * shortest path
+    * dfs wekness - weighted graph
+    * weighted graph a dfs kaj korena
+
+why we need dijkstra
+    * unweighted graph -> bfs(shortest path)
+    * weight graph -> dijkstra
+
+dijkstra two kind:
+    * naive
+    * optimize
+
+
+path relaxation
+    * low cost destination
+
+    a(30)------5-------b(50)
+      given that
+      dis[a]+x = 30 + 5 = 35
+      dis[b] = 50
+
+    if dis[a] + x < dis[b]
+        = dis[b] = dis[a] + x # is path relaxation
+
+    * so b ar distane a+b
+
+
+data format
+0 1 10 # 0 theke 1 connection and cost is 10
+
+*** make sure has not negetive cost
+*** dijkstra work for positive weight
+*** negetive cycle
+*** negetive weight ace, but negetive cycle nai

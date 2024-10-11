@@ -4,7 +4,8 @@ edge = connecton
 algo is kaj ar process
     graph
     dynamic programming
-    bonus
+    bonus(ignore)
+
 
 
 # graph
@@ -12,16 +13,24 @@ algo is kaj ar process
 2. graph has multiple way
 3. cycle
 
+graph task:
+    1. shortest path
+    2. how much quiclky visit
+    3. path cost
+
+    # bfs - level order traverse
 
 type of graph
-    1 undericted graph : no direction
-    2 directed graph: has direction
-    3 unweighted: weight did not define
+    1 undericted graph : did not say direction / both direction(up, down)
+    2 directed graph: one way direction
+    3 unweighted: edge weight(cost) did not define
     4 weighted: time cost, evey edge has weighted
     5 cycle: has cycle
+        undirected: min 3 node cycle
+        directed : min 2 node cycle
 
 graph can input 3 way:
-    1. Adjacency Matrix
+    1. Adjacency Matrix: use when two node connection checking
     2. Adjacency List
     3. Edge List
 
